@@ -1,6 +1,5 @@
-- name: "Department: Engineering"
-  description: This label is for all hosts that are part of the engineering department.
-  label_membership_type: host_vitals
-  criteria:
-    vital: end_user_ipd_department
-    value: Engineering
+- name: Uptime over 30 days
+  platform: darwin
+  description: Hosts that have been up for more than 30 days
+  query: SELECT 1 FROM uptime WHERE days > 30
+  label_membership_type: dynamic
