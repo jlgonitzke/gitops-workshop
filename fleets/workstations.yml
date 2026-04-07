@@ -129,7 +129,7 @@ controls:
   scripts:
     - paths: ../platforms/windows/scripts/*.ps1
     - paths: ../platforms/linux/scripts/*.sh
-    - path: ../platforms/macos/scripts/set-dns-cloudflare.sh
+    - paths: ../platforms/macos/scripts/*.sh
 
 ###########################################################
 # Reports
