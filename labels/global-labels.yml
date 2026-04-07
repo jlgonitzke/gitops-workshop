@@ -3,10 +3,3 @@
   description: Hosts that have been up for more than 30 days
   query: SELECT 1 FROM uptime WHERE days > 30
   label_membership_type: dynamic
-
-- name: "Department: Engineering"
-  description: Hosts belonging to the Engineering department
-  label_membership_type: host_vitals
-  criteria:
-    vital: end_user_ipd_department
-    value: Engineering
