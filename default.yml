@@ -29,10 +29,9 @@ org_settings:
     org_name: I Love Beer, Inc.
 
   webhook_settings:
-    ###########################################################
     activities_webhook:
     enable_activities_webhook: true
-    destination_url: webhook.site "https://webhook.site/32d98d63-7d08-46cf-8714-dacecde9949a"
+    destination_url: "https://webhook.site/32d98d63-7d08-46cf-8714-dacecde9949a"
 
   server_settings:
     ###########################################################
