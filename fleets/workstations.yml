@@ -23,10 +23,6 @@ labels:
     hosts:
     
 controls:
-  macos_updates:
-    deadline: "2026-07-30"
-    minimum_version: "26.4"
-    
   setup_experience:
     ###########################################################
     # Configure the macOS setup experience
@@ -86,6 +82,10 @@ controls:
   windows_settings:
     configuration_profiles:
       - paths: ../platforms/windows/configuration-profiles/*.xml
+
+  macos_updates:
+    deadline: "2026-07-30"
+    minimum_version: "26.4"
 
   ###########################################################
   # Managed disk encryption
